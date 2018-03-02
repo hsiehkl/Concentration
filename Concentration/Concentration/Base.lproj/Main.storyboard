@@ -20,7 +20,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flips: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wlq-5r-XY6">
-                                <rect key="frame" x="101" y="730" width="172" height="48"/>
+                                <rect key="frame" x="125.66666666666666" y="720" width="123.66666666666666" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -149,13 +149,12 @@
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Wlq-5r-XY6" secondAttribute="trailing" constant="102" id="8ni-MM-ycp"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MGq-ia-1ik" secondAttribute="trailing" constant="30" id="I3j-9Y-v2B"/>
                             <constraint firstItem="MGq-ia-1ik" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="Od7-KM-eHz"/>
-                            <constraint firstItem="Wlq-5r-XY6" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="bPA-eV-fsd"/>
-                            <constraint firstItem="Wlq-5r-XY6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="101" id="hEZ-0h-lhX"/>
-                            <constraint firstItem="Wlq-5r-XY6" firstAttribute="top" secondItem="MGq-ia-1ik" secondAttribute="bottom" constant="30" id="jUT-TV-6ds"/>
+                            <constraint firstItem="Wlq-5r-XY6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Vgz-5w-iuB"/>
+                            <constraint firstItem="Wlq-5r-XY6" firstAttribute="top" secondItem="MGq-ia-1ik" secondAttribute="bottom" constant="20" id="jUT-TV-6ds"/>
                             <constraint firstItem="MGq-ia-1ik" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="jmM-kR-MmP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Wlq-5r-XY6" secondAttribute="bottom" constant="10" id="lik-ee-VFQ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
