@@ -24,27 +24,27 @@
                                 <rect key="frame" x="145" y="302" width="124" height="147.33333333333337"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fUm-Kb-0bE">
-                                        <rect key="frame" x="30.666666666666657" y="0.33333333333331439" width="63" height="49"/>
+                                        <rect key="frame" x="30.666666666666657" y="0.0" width="63" height="49"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <state key="normal" title="Sports"/>
                                         <connections>
-                                            <segue destination="BYZ-38-t0r" kind="showDetail" identifier="Choose Theme" id="rd6-KK-LCo"/>
+                                            <action selector="changeTheme:" destination="jQ0-PY-Noa" eventType="touchUpInside" id="I4V-ez-Se7"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4pj-Lg-sFS">
-                                        <rect key="frame" x="33.666666666666657" y="49.333333333333314" width="57" height="49"/>
+                                        <rect key="frame" x="33.666666666666657" y="49" width="57" height="49.333333333333343"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <state key="normal" title="Faces"/>
                                         <connections>
-                                            <segue destination="BYZ-38-t0r" kind="showDetail" identifier="Choose Theme" id="1oK-b8-KAI"/>
+                                            <action selector="changeTheme:" destination="jQ0-PY-Noa" eventType="touchUpInside" id="URb-0u-afq"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vD0-xz-JyI">
-                                        <rect key="frame" x="24" y="98.333333333333314" width="76" height="49.333333333333343"/>
+                                        <rect key="frame" x="24" y="98.333333333333314" width="76" height="49"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <state key="normal" title="Animals"/>
                                         <connections>
-                                            <segue destination="BYZ-38-t0r" kind="showDetail" identifier="Choose Theme" id="ndV-VN-Dtl"/>
+                                            <action selector="changeTheme:" destination="jQ0-PY-Noa" eventType="touchUpInside" id="ejm-Sn-paM"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -60,6 +60,9 @@
                         <viewLayoutGuide key="safeArea" id="nuq-8E-epi"/>
                     </view>
                     <navigationItem key="navigationItem" id="bCs-mB-oiV"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="showDetail" identifier="Choose Theme" id="ksh-Tc-spF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7jA-Kq-cX4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -316,6 +319,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Isf-1w-mzh"/>
+        <segue reference="ksh-Tc-spF"/>
     </inferredMetricsTieBreakers>
 </document>

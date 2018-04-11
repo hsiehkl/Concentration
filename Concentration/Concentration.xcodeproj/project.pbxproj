@@ -60,10 +60,10 @@
 		6B218021203C7ADB00EA6A81 /* Concentration */ = {
 			isa = PBXGroup;
 			children = (
+				6B0A6B8D207E30E500640F2C /* ConcentrationThemeChooserViewController.swift */,
 				6B218024203C7ADB00EA6A81 /* ConcentrationViewController.swift */,
 				6B21803520405C8900EA6A81 /* Concentration.swift */,
 				6B21803720405D6600EA6A81 /* Card.swift */,
-				6B0A6B8D207E30E500640F2C /* ConcentrationThemeChooserViewController.swift */,
 				6B218026203C7ADB00EA6A81 /* Main.storyboard */,
 				6B218034203C7EB200EA6A81 /* Supporting Files */,
 				6B21802E203C7ADB00EA6A81 /* Info.plist */,
